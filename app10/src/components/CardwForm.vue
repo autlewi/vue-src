@@ -50,28 +50,26 @@ function addInfo() {
 <style>
 main {
   display: flex;
-  margin: 10px;
-  scale: 150%;
+  margin: 10px 10%;
 }
 section {
   margin: 10px;
 }
-#form {
-  width: 70%;
+#forms {
+  width: 50%;
   display: flex;
   flex-direction: column;
+  border-radius: 5px;
+
 }
 #list {
-  width: 150%;
+  width: 30%;
   padding: 10px;
   border: solid 1px black;
-}
-label {
-  margin: 0 0 0 10px;
+  border-radius: 5px;
 }
 
-button {
-  margin: 3px 0 0 0;
-}
+
+
 </style>
 

@@ -35,10 +35,13 @@ const values = computed({
 form {
   border-style: solid;
   border-width: 1px;
+  border-radius: 5px;
 }
 
+
 fieldset {
-  padding: 10px;
-  
+    display: flex;
+    justify-content: space-between;
+
 }
 </style>

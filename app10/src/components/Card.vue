@@ -31,6 +31,8 @@ onMounted(() => {
     display: block;
     border-style: solid 1px darkgrey;
     border-color: darkgrey;
+    border-radius: 2px;
+
 }
 
 </style>
