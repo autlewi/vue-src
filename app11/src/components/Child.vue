@@ -1,0 +1,35 @@
+
+<template>
+  <h1>Provide/Inject Demo</h1>
+  <p>{{ provideString }}</p>
+  <p>{{ providedNum }}</p>
+</template>
+  
+  <script>
+export default {
+  inject: ["provideString", "providedNum"],
+};
+</script>
+
+  <style>
+
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  margin: 60px 0 40px;
+  font-weight: 500;
+  color: #384047;
+}
+p {
+  background: #fff;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font: Helvetica Neue, Helvectica, Arial, serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #8d9aa5;
+}
+</style>
+  
